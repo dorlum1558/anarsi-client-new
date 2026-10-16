@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.anarsi.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MinecraftClientMixin",
+    "BlockMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "OptionsScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "anarsi-client-refmap.json"
+}
